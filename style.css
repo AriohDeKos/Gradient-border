@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+a{
+    display: table;
+    margin: auto;
+    position: relative;
+    top: 400px;
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #ff0000,#fff200,#1e9600);
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 1000ms; 
+}
+a:hover{
+background-size: 0 3px, 100% 3px;
+}
